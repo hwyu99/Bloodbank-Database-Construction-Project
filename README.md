@@ -78,4 +78,4 @@ WHERE tday BETWEEN '2018-01-01' and '2018-03-31')
 
 --Q15 Find the name of testcenter which have done test during April 2018.  
 SELECT DISTINCT tname FROM testcenter WHERE tid in (  
-SELECT tid FROM testcenter WHERE tday BETWEEN '2018-04-01' and '2018-04-30')  
+SELECT tid FROM testcenter WHERE tday BETWEEN '2018-04-01' and '2018-04-30')   
